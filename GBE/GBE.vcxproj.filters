@@ -36,6 +36,9 @@
     <ClCompile Include="cpu\gb_cpu.cpp">
       <Filter>Source Files\cpu</Filter>
     </ClCompile>
+    <ClCompile Include="gb_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpu\opcode.hpp">
@@ -49,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="cpu\gb_cpu.hpp">
       <Filter>Header Files\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="gb_state.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

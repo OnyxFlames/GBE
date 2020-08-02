@@ -146,6 +146,7 @@
     <ClCompile Include="cpu\gb_registers.cpp" />
     <ClCompile Include="cpu\opcode.cpp" />
     <ClCompile Include="cpu\opcode_timings.cpp" />
+    <ClCompile Include="gb_state.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="cpu\gb_registers.hpp" />
     <ClInclude Include="cpu\opcode.hpp" />
     <ClInclude Include="cpu\opcode_timings.hpp" />
+    <ClInclude Include="gb_state.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
