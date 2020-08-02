@@ -4,8 +4,12 @@
 
 #include "cpu/gb_registers.hpp"
 
+#include "disasm/disassembler.hpp"
+
 int main(int argc, char* argv[])
 {
+	printf("%s\n", disasm::to_string({0x18, 0x81, 0xaa}).c_str());
+	return 0;
 	SDL_Window* window;
 	SDL_Surface* surface;
 

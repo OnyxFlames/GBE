@@ -19,6 +19,12 @@
     <Filter Include="Source Files\cpu">
       <UniqueIdentifier>{f2743e79-057c-474a-9b8f-47b59bb76bd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\disasm">
+      <UniqueIdentifier>{fc065012-ef13-4c28-8839-cd511f0c2a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\disasm">
+      <UniqueIdentifier>{605c6245-87d8-4997-952e-fdf058de0c41}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +45,9 @@
     <ClCompile Include="gb_state.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="disasm\disassembler.cpp">
+      <Filter>Source Files\disasm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpu\opcode.hpp">
@@ -55,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="gb_state.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\disassembler.hpp">
+      <Filter>Header Files\disasm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
