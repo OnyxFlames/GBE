@@ -48,6 +48,9 @@
     <ClCompile Include="disasm\disassembler.cpp">
       <Filter>Source Files\disasm</Filter>
     </ClCompile>
+    <ClCompile Include="cpu\opcode_width.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpu\opcode.hpp">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="disasm\disassembler.hpp">
       <Filter>Header Files\disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu\opcode_width.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

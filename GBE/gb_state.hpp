@@ -9,10 +9,17 @@
 // #include "mmu/gb_mmu.hpp"
 // #include "ppu/gb_ppu.hpp"
 
+class GBMMU; // memory
+class GBPPU; // picture
+class GBAPU; // audio
 
 class GBState
 {
 private:
+	GBCPU& mCPU;
+	GBMMU& mMMU;
+	GBPPU& mPPU;
+	GBAPU& mAPU;
 
 public:
 
