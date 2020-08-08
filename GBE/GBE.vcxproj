@@ -150,6 +150,8 @@
     <ClCompile Include="disasm\disassembler.cpp" />
     <ClCompile Include="gb_state.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mmu\memory_device.cpp" />
+    <ClCompile Include="mmu\memory_rule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpu\gb_cpu.hpp" />
@@ -159,6 +161,8 @@
     <ClInclude Include="cpu\opcode_width.hpp" />
     <ClInclude Include="disasm\disassembler.hpp" />
     <ClInclude Include="gb_state.hpp" />
+    <ClInclude Include="mmu\memory_device.hpp" />
+    <ClInclude Include="mmu\memory_rule.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
