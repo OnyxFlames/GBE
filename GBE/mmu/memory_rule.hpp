@@ -8,6 +8,9 @@ class MemoryDevice;
 	Dictates what memory region reads utilize a given device
 
 	Used in a list of rules, iterating through while a given address isnt in range, when in range, return device to read from/write to
+
+	TODO: Add predicate list, a list of functions that test the address value more indepth than just inRange, eg. address & 0xC000 != 0
+		this will allow for more intricate memory mappers, where predicates are tested in a given rule before moving on to the next rule
 */
 
 class MemoryRule

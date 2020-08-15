@@ -4,10 +4,12 @@
 
 
 #include <cstdint>
-
+#include <functional>
 // forward def
 
 class GBState;
+
+typedef std::function<uint8_t(GBState&)> Opcode;
 
 namespace op
 {
